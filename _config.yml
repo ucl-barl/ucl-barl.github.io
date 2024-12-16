@@ -36,7 +36,7 @@ collections:
   newsposts:
     output: false
   blogposts:
-    output: true
+    output: false
     permalink: /blog/:name
   publications:
     output: true
@@ -45,16 +45,16 @@ collections:
     output: true
     permalink: /:collection/:name
   projects:
-    output: true
+    output: false
     permalink: /research/:name
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:name
   workshops:
-    output: true
+    output: false
     permalink: /:name
   main:
-    output: true
+    output: false
     permalink: /:name
 
 defaults:
